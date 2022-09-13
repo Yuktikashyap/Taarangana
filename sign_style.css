@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:20');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    min-height: 110vh;
+   background-image: url(https://img.freepik.com/premium-photo/pretty-girl-with-long-blond-hair-touching-headphones-while-mixing-sounds-disco-dancing-enjoying-party-with-excited-friends-background_274679-17055.jpg?w=2000);
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+.container_1{
+     /* display: flex; */
+     margin-top: 12%;
+     margin-left: 24%;
+    position: relative;
+    max-width: 850px;
+    width: 100%;
+    padding: 40px 30px;
+    background-color: white;
+    opacity: 0.9;
+    perspective: 2700px;
+    margin-bottom: 20%;
+}
+
+.container_1 #flip:checked ~ .cover{
+    transform: rotateY(-180deg);
+}
+.container_1 .cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    background: red;
+    z-index: 98;
+    transition: all 1s ease;
+    transform-origin: right;
+    transform-style: preserve-3d;
+}
+
+.container_1 .cover::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+   background-color: white;
+   opacity: 0.5;
+   z-index: 100;
+}
+.container_1 .cover::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+   background-color: white;
+    opacity: 0.2;
+   z-index: 100;
+   transform: rotateY(180deg);
+}
+
+.container_1 .cover img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 12;
+    /* backface-visibility: hidden; */
+    opacity: 30px;
+}
+.container_1 .form-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-content .login-form,
+.form-content .signup-form{
+
+    width: calc(100%/2-15px);
+}
+
+.container_1 .form{
+   
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 252, 253);
+
+}
+
+form .form-content .title{
+    
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+}
+
+form .form-content .title:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 25px;
+    background-color: purple;
+}
+
+/* form .signup-form .form-content .title:before{
+    width: 20px;
+} */
+
+form .form-content .input-boxes{
+    margin-top: 30px;
+    height: 300px;
+}
+
+form .form-content .input-box{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+.form-content .input-box input{
+
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 3px solid rgb(175, 175, 175);
+}
+
+.form-content .input-box input:focus,.form-content .input-box input:valid{
+    border-color: purple;
+}
+.form-content .input-box i{
+    position: absolute;
+    color:rgb(134, 39, 165);
+    font-size: 17px;
+}
+
+form .form-content .text{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(68, 6, 70);
+}
+
+form .form-content .text a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+form .form-content .button{
+    color: #fff;
+    background: purple;
+   
+    margin-top: 40px;
+}
+
+form .form-content .button input{
+    color: white;
+    background-color: rgb(134, 39, 165);
+    border-radius: 8px;
+    padding: 0%;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+form .form-content .button input:hover{
+
+    background-color: purple;
+
+}
+
+form .form-content .text{
+  text-align: center;
+  margin-top: 25px;
+}
+
+.container_1 .cover img .back{
+    transform: rotateY(180deg);
+    opacity: none;
+}
+ .social-links{
+    margin-left: 12%;
+    margin-top: 0px;
+
+} 
+.social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(134, 39, 165);
+    margin: 0 20px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+  color: rgb(242, 240, 241);
+  padding-right: 4px;
+   align-items: center;
+   
+}
+
+.social-links a:hover{
+    color: palevioletred;
+}
+
+form .text label h4{
+    margin-bottom: 2px;
+}
+

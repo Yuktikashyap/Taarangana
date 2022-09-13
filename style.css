@@ -1,0 +1,272 @@
+body{ 
+    /* background-image: url(https://media.istockphoto.com/photos/happy-young-friends-having-funny-party-with-confetti-and-cocktails-picture-id518090514?k=20&m=518090514&s=612x612&w=0&h=dGbf_cfcua5bELAAvpohUH9bo2a0gh72VmF6QCAKEoY=);  */
+    /* background-image: url(https://images.squarespace-cdn.com/content/v1/5a514fdebce1766935166880/1529078930305-497RC2HLBXVX5LZ1ZEAZ/silent+disco.jpg?format=1500w);  */
+   
+    /* background-image: url(https://wallpaperaccess.com/full/6647322.jpg);  */
+    background-image: url(https://img.freepik.com/premium-photo/pretty-girl-with-long-blond-hair-touching-headphones-while-mixing-sounds-disco-dancing-enjoying-party-with-excited-friends-background_274679-17055.jpg?w=2000);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+   margin: 0px;
+   margin-right: 0px;
+}
+
+.heading{  
+    padding: 1px 70px;
+    background-size: 100% 100%;
+    margin-top:12% ;
+    width: 93%;
+    height: 250px; 
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.register{
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 50px;
+    margin-left: 39%;
+    /* padding-top: 5px; */
+border-radius: 29px;
+margin-bottom: 12%;
+}
+
+.register a{
+    color: white;
+    text-align: center;
+    padding-left: 70px;
+    padding-top: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin-bottom: 20%
+    
+}
+
+.register a:hover{
+    font-size: 28px;
+    color: palevioletred;
+   
+}
+.heading h1{
+    margin-top: 9px;
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 2px;
+    letter-spacing: 16px;
+    padding-left: 6%;
+}
+.heading h2{
+    margin-top: 2px;
+    font-size: 44px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 12%;
+}
+
+
+.About{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    height: 190px;
+    padding-top: 2px;
+   
+    border: 4px;
+  color: rgb(255, 255, 255);
+  font-size: large;
+ 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 12%;
+
+}
+.About{
+    border-radius: 54px;
+    
+}
+.About h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+.img{
+    margin-top: 50px;
+      width: 70%;
+      height: 400px;
+      margin-left: 224px;
+      box-shadow: 1px 2px 10px 10px white;
+      background-size: 100% 100%;
+      animation: slider 9s infinite linear;
+      margin-bottom: 12%;
+}
+
+
+@keyframes slider{
+    0%{
+         background-image: url(https://i.pinimg.com/736x/f3/fe/f6/f3fef6bb9c3e7df34c1d03ebb0df8e29.jpg);
+    }
+    20%{
+        background-image: url(https://duexpress.in/wp-content/uploads/2018/01/17218749_1398474683557908_1065026723155465431_o.jpg);
+
+    }
+    40%{
+        background-image: url(https://i.ytimg.com/vi/l1FyGn_muBk/hqdefault.jpg);
+    }
+    60%{
+        background-image: url(https://i.pinimg.com/736x/2d/48/61/2d4861c0632e859cd53c590af4cae12f.jpg);
+    }
+    80%{
+        background-image: url(https://i.ytimg.com/vi/uK49h8D0Upg/hqdefault.jpg);
+    }
+  100%{
+    background-image: url(https://images.newindianexpress.com/uploads/user/imagelibrary/2022/4/7/w1200X800/the_curtain.jpg);
+  }
+ 
+
+}
+.footer{
+    height: 250px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+    padding-left: 12px;
+}
+
+
+.box{
+   
+   height: 300px;
+   width: 200vw;
+   background-image: url(https://i.pinimg.com/736x/cd/ce/bd/cdcebdbf98bae13a752e48f95174fd9d.jpg);
+   background-size: 100% 100%;
+   margin-left:25%;
+   box-shadow: 1px 2px 10px 10px black;
+   margin-top: 22px;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1170px;
+    background-color: red;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+
+}
+
+.footer_1{
+    background-color: black;
+    padding: 70px;
+}
+
+.footer-col{
+ width: 25%;
+ padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(245, 14, 122);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color:rgb(253, 248, 248);
+    text-decoration: none;
+}
+
+
+.social a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(60, 56, 56);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+  color: rgb(242, 240, 241);
+  padding-right: 4px;
+}
+
+.social a:hover{
+    color: palevioletred;
+}
+
+.footer-col a:hover{
+    color: palevioletred;
+    font-size: 20px;
+}
+.nav{
+   
+    display: flex;
+    justify-content: right;
+   
+}
+
+
+.nav1{
+    color: rgb(253, 248, 248);
+    width: 12%;
+    height: 50px;
+    text-align: right;
+    padding-right:24px ;
+    font-size: 24px;
+    padding-top: 28px;
+    margin-bottom: 2px;
+}
+
+.nav1 a{
+    color: white;
+}
+
+.nav1 a:hover{
+   
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 32px;
+}
